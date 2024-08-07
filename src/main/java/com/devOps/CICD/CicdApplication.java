@@ -9,7 +9,7 @@ public class CicdApplication {
 
 	@GetMapping
     public String message() {
-		return "Hello World";
+		return "Hello World2";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(CicdApplication.class, args);
